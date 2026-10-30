@@ -1,27 +1,27 @@
 import Image from "next/image";
 import Main from "./pages/main/page";
-import FirstCountDown from "./pages/FirstCountDown.tsx/page";
-import SecondCountDown from "./pages/SecondCountDown/page";
-import WeddingSchedule from "./pages/WeddingSchedule/page";
-import OurStory from "./pages/OurStory/page";
-import OurGallery from "./pages/OurGallery/page";
-import OurVenue from "./pages/OurVenue/page";
-import Wishing from "./pages/Wishing/page";
-import Payment from "./pages/Payment/page";
+import FirstCountDown from "./components/FirstCountDown/FirstCountDown";
+import SecondCountDown from "./components/SecondCountDown/SecondCountDown";
+import WeddingSchedule from "./components/WeddingSchedule/WeddingSchedule";
+import OurStory from "./components/OurStory/OurStory";
+import OurGallery from "./components/OurGallery/OurGallery";
+import OurVenue from "./components/OurVenue/OurVenue";
+import Wishing from "./components/Wishing/Wishing";
+import Payment from "./components/Payment/Payment";
 
 export default function Home() {
   return (
     
     <div>
       <Main/>
-      <FirstCountDown/>
+      {/* <FirstCountDown/>
       <OurStory/>
       <WeddingSchedule/>
       <OurVenue/>
       <SecondCountDown/>
       <OurGallery/>
       <Payment/>
-      <Wishing/>
+      <Wishing/> */}
     </div>
   );
 }
